@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://192.168.0.102:8080'
+ baseUrl: 'http://lcassi5148.c44.integrator.host:17897'
 };
 
 /*
