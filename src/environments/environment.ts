@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
- baseUrl: 'http://lcassi5148.c44.integrator.host:17897'
+  baseUrl: 'http://lcassi5148.c44.integrator.host:17897'
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
