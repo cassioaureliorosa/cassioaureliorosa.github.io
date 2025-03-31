@@ -17,6 +17,33 @@ h1 {
     width: 100%;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* Alinha os campos lado a lado em telas grandes */
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    /* Espaço entre os elementos */
+    flex-wrap: wrap;
+    /* Permite quebrar para a próxima linha */
+}
+
+
+/* Faz os campos ocuparem toda a largura em telas pequenas */
+
+@media (max-width: 768px) {
+    .labels {
+        flex-direction: column;
+        /* Força os itens a ficarem um abaixo do outro */
+    }
+}
+
 textarea {
     min-height: 4rem;
     max-height: 30rem;
